@@ -66,7 +66,7 @@ ecommerce-olist-analysis/
 
 ```bash
 # Clone este repositório
-git clone https://github.com/seu-usuario/ecommerce-olist-analysis.git
+git clone https://github.com/JoaoGobbi/Ecommerce-Analise.git
 
 # Acesse a pasta do projeto
 cd ecommerce-olist-analysis

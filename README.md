@@ -1,3 +1,4 @@
+
 # 🛍️ Análise de Dados E-commerce Olist — Segmentação de Clientes (RFM + Clusterização)
 
 ## 🔍 Objetivo
@@ -36,18 +37,20 @@ Aplicar técnicas de análise de dados para entender o comportamento dos cliente
 
 ## 🗺️ Arquitetura do Projeto
 
+```
 ecommerce-olist-analysis/
 ├── data/
-│ ├── raw/ → Dados brutos
-│ └── processed/ → Dados processados e outputs
-├── notebooks/ → Análises exploratórias e geração de gráficos
+│   ├── raw/           → Dados brutos
+│   └── processed/     → Dados processados e outputs
+├── notebooks/         → Análises exploratórias e geração de gráficos
 ├── reports/
-│ └── figures/ → Gráficos gerados
-├── src/ → Scripts Python
-├── tests/ → Testes unitários
-├── main.py → Pipeline principal
-├── README.md → Este arquivo
-├── requirements.txt → Dependências
+│   └── figures/       → Gráficos gerados
+├── src/               → Scripts Python
+├── tests/             → Testes unitários
+├── main.py            → Pipeline principal
+├── README.md          → Este arquivo
+├── requirements.txt   → Dependências
+```
 
 ---
 
@@ -63,7 +66,7 @@ ecommerce-olist-analysis/
 
 ```bash
 # Clone este repositório
-git clone https://github.com/joao-gobbi/ecommerce-olist-analysis.git
+git clone https://github.com/seu-usuario/ecommerce-olist-analysis.git
 
 # Acesse a pasta do projeto
 cd ecommerce-olist-analysis
@@ -73,21 +76,23 @@ pip install -r requirements.txt
 
 # Execute o pipeline completo
 python main.py
+```
 
 ---
 
-🎨 Gráficos Gerados
+## 🎨 Gráficos Gerados
 
-📊 Análise exploratória dos dados (EDA)
-
-📊 Distribuição dos scores R, F, V
-
-📊 Distribuição dos clientes por cluster
-
-📊 Dispersão: Frequência vs Valor colorido pelos clusters
+- 📊 Análise exploratória dos dados (EDA)
+- 📊 Distribuição dos scores R, F, V
+- 📊 Distribuição dos clientes por cluster
+- 📊 Dispersão: Frequência vs Valor colorido pelos clusters
 
 Todas as figuras estão disponíveis na pasta:
 
-bash
+```
 /reports/figures
-```bash
+```
+
+---
+
+## ✅ Projeto finalizado com sucesso e pronto para portfólio no GitHub!

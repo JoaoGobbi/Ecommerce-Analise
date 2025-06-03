@@ -78,6 +78,16 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## 📥 Como obter os dados
+
+Os dados utilizados neste projeto são públicos e estão disponíveis no Kaggle:
+
+🔗 [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+Baixe os arquivos do Kaggle e coloque na pasta:
+```
+/data/raw/
+```
 ---
 
 ## 🎨 Gráficos Gerados
@@ -93,6 +103,3 @@ Todas as figuras estão disponíveis na pasta:
 /reports/figures
 ```
 
----
-
-## ✅ Projeto finalizado com sucesso e pronto para portfólio no GitHub!

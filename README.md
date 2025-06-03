@@ -16,6 +16,36 @@ Aplicar técnicas de análise de dados para entender o comportamento dos cliente
 
 ---
 
+## 📥 Como obter os dados
+
+Os dados utilizados neste projeto são públicos e estão disponíveis no Kaggle:
+
+🔗 [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+Baixe os arquivos e coloque na pasta:
+
+```
+/data/raw/
+```
+
+---
+
+## 🔄 Gerando os dados processados
+
+Após baixar os dados brutos, execute o pipeline para gerar automaticamente todos os arquivos processados:
+
+```bash
+python main.py
+```
+
+Os arquivos processados serão salvos na pasta:
+
+```
+/data/processed/
+```
+
+---
+
 ## 📈 Principais Resultados
 
 | Cluster | Recência Média | Frequência Média | Valor Médio | Perfil                  |
@@ -40,8 +70,8 @@ Aplicar técnicas de análise de dados para entender o comportamento dos cliente
 ```
 ecommerce-olist-analysis/
 ├── data/
-│   ├── raw/           → Dados brutos
-│   └── processed/     → Dados processados e outputs
+│   ├── raw/           → Dados brutos (não incluídos no GitHub)
+│   └── processed/     → Dados processados (gerados via main.py)
 ├── notebooks/         → Análises exploratórias e geração de gráficos
 ├── reports/
 │   └── figures/       → Gráficos gerados
@@ -78,16 +108,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📥 Como obter os dados
-
-Os dados utilizados neste projeto são públicos e estão disponíveis no Kaggle:
-
-🔗 [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-
-Baixe os arquivos do Kaggle e coloque na pasta:
-```
-/data/raw/
-```
 ---
 
 ## 🎨 Gráficos Gerados
